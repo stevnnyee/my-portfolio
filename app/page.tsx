@@ -35,7 +35,7 @@ export default function Home() {
       <section id="home" className="pt-24 container mx-auto px-4 py-16 flex items-center">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">
-          Hey, I&apos;m Steven
+          Hey, I&apos;m Steven!
           </h1>
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
             Computer Science and Mathematics Student at Northeastern University
