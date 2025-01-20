@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2 bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+}
+
+/* Global styles */
+body {
+  @apply text-gray-800 bg-gray-50 dark:text-gray-200 dark:bg-gray-900 
+         transition-colors duration-300 ease-in-out;
+  scroll-behavior: smooth;
+}
+
+/* Improve link and interactive element styles */
+a {
+  @apply transition-colors duration-300 ease-in-out 
+         dark:text-blue-300 text-blue-600;
+}
+
+a:hover {
+  @apply dark:text-blue-200 text-blue-700;
+}
+
+/* Subtle focus states */
+*:focus {
+  @apply outline-none ring-2 ring-blue-500 ring-opacity-50 rounded;
+}
+
+/* Smooth section transitions */
+section {
+  @apply scroll-mt-20 
+         transition-colors duration-300 ease-in-out;
+}
+
+/* Card and container dark mode adjustments */
+.dark-mode-transition {
+  @apply transition-colors duration-300 ease-in-out;
+}
+
+/* Custom selection styling */
+::selection {
+  @apply bg-blue-200 dark:bg-blue-700 text-gray-900 dark:text-white;
+}
