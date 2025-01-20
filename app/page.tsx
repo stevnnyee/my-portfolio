@@ -35,7 +35,7 @@ export default function Home() {
       <section id="home" className="pt-24 container mx-auto px-4 py-16 flex items-center">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">
-            Hey, I'm Steven!
+          Hey, I&apos;m Steven
           </h1>
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
             Computer Science and Mathematics Student at Northeastern University
@@ -65,13 +65,13 @@ export default function Home() {
                 <User className="mr-3 text-gray-800 dark:text-gray-300" /> About Me
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                I'm a second-year Computer Science and Mathematics student at Northeastern University, 
+                I&apos;m a second-year Computer Science and Mathematics student at Northeastern University, 
                 passionate about bridging theoretical foundations with innovative technological solutions. 
                 My academic journey combines rigorous mathematical training with practical software development skills.
               </p>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
                 Academic Highlights:
-                • Dean's List with a 3.6 GPA
+                • Dean&apos;s List with a 3.6 GPA
                 • Merit Scholarship Recipient
                 • Coursework in Linear Algebra, Differential Equations, Probability and Statistics
                 • Currently exploring Machine Learning technologies
@@ -133,11 +133,11 @@ export default function Home() {
               {
                 title: 'ThreeTrios Game',
                 description: 'ThreeTrios is a sophisticated Java-based strategy game built using Model-View-Controller (MVC) architecture. The project demonstrates advanced object-oriented programming principles, featuring a dynamic GUI that offers an engaging user experience through intuitive interactions and real-time gameplay mechanics.',
-                technologies: ['IntellIj', 'Object-Oriented Programming'],
+                technologies: ['IntellIJ', 'Object-Oriented Programming'],
                 link: 'https://github.com/stevnnyee/ThreeTrios.git'
               },
               {
-                title: 'Valentine\'s Website',
+                title: 'Valentine&apos;s Website',
                 description: 'Responsive website created using HTML and CSS, showcasing frontend design skills.',
                 technologies: ['HTML', 'CSS'],
                 link: 'https://github.com/stevnnyee/valentines-site.git'
