@@ -18,14 +18,41 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Improve link and interactive element styles */
+/* Enhanced link and interactive element styles */
 a {
-  @apply transition-colors duration-300 ease-in-out 
-         dark:text-blue-300 text-blue-600;
+  @apply transition-all duration-300 ease-in-out 
+         dark:text-blue-300 text-blue-600 
+         hover:scale-105 hover:brightness-110;
 }
 
-a:hover {
-  @apply dark:text-blue-200 text-blue-700;
+/* Project card animations */
+.project-card {
+  @apply transform transition-all duration-300 ease-in-out
+         hover:scale-105 hover:shadow-xl
+         hover:rotate-1;
+}
+
+/* Skill item animations */
+.skill-item {
+  @apply transform transition-all duration-300 ease-in-out
+         hover:scale-110 hover:shadow-lg
+         hover:-translate-y-1;
+}
+
+/* Section fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-section {
+  animation: fadeIn 0.8s ease-out forwards;
 }
 
 /* Subtle focus states */
@@ -36,15 +63,27 @@ a:hover {
 /* Smooth section transitions */
 section {
   @apply scroll-mt-20 
-         transition-colors duration-300 ease-in-out;
+         transition-all duration-500 ease-in-out;
 }
 
 /* Card and container dark mode adjustments */
 .dark-mode-transition {
-  @apply transition-colors duration-300 ease-in-out;
+  @apply transition-all duration-300 ease-in-out;
 }
 
 /* Custom selection styling */
 ::selection {
   @apply bg-blue-200 dark:bg-blue-700 text-gray-900 dark:text-white;
+}
+
+/* Button hover effects */
+button {
+  @apply transition-all duration-300 ease-in-out
+         hover:scale-105 hover:shadow-md;
+}
+
+/* Form input focus effects */
+input, textarea {
+  @apply transition-all duration-300 ease-in-out
+         focus:scale-[1.02] focus:shadow-md;
 }
