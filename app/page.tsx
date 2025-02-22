@@ -136,7 +136,7 @@ export default function Home() {
                   title: 'FloodIt Game',
                   description: 'Java-based implementation of the classic FloodIt puzzle game with strategic gameplay mechanics.',
                   technologies: ['Java', 'Eclipse', 'Object-Oriented Programming'],
-                  link: '#'
+                  link: 'https://github.com/stevnnyee/flood-it.git'
                 },
                 {
                   title: 'ThreeTrios Game',
